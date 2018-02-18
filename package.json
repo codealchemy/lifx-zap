@@ -1,0 +1,24 @@
+{
+  "name": "lifx-zap",
+  "version": "0.0.1",
+  "description": "An Zapier integration for Lifx lights.",
+  "repository": "codealchemy/lifx-zap",
+  "author": "Alex Schmitt <alex@alchemist.codes>",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha --recursive"
+  },
+  "engines": {
+    "node": "6.10.2",
+    "npm": ">=3.10.10"
+  },
+  "dependencies": {
+    "zapier-platform-core": "4.3.2"
+  },
+  "devDependencies": {
+    "mocha": "3.2.0",
+    "nock": "^9.1.6",
+    "should": "11.2.1"
+  }
+}
