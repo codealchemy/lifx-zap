@@ -1,3 +1,4 @@
+const TogglePowerCreate = require('./creates/toggle-power');
 const SetStateCreate = require('./creates/set-state');
 const authentication = require('./authentication');
 
@@ -31,6 +32,7 @@ const Lifx = {
   },
 
   creates: {
+    [TogglePowerCreate.key]: TogglePowerCreate,
     [SetStateCreate.key]: SetStateCreate,
   }
 };
