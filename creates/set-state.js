@@ -18,7 +18,7 @@ module.exports = {
   noun: 'SetState',
 
   display: {
-    label: 'SetState',
+    label: 'Set Light State',
     description: 'Change the state of your lights.'
   },
 
@@ -26,7 +26,7 @@ module.exports = {
     inputFields: [
       {
         key: 'selector',
-        label: 'Select for light(s) to change',
+        label: 'Select light(s) to change',
         required: true,
         type: 'string',
         default: 'all'
@@ -69,6 +69,10 @@ module.exports = {
       {
         key: 'label',
         label: 'Label'
+      },
+      {
+        key: 'status',
+        label: 'Status'
       }
     ]
   }
