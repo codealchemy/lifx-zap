@@ -39,6 +39,12 @@ module.exports = {
     ],
     perform: createTogglepower,
 
+    sample: {
+      id: 'd3b2f2d97452',
+      label: 'Left Lamp',
+      status: 'ok'
+    },
+
     outputFields: [
       {
         key: 'id',
