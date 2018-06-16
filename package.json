@@ -17,8 +17,8 @@
     "zapier-platform-core": "6.1.0"
   },
   "devDependencies": {
-    "mocha": "3.2.0",
-    "nock": "^9.1.6",
-    "should": "11.2.1"
+    "mocha": "5.2.0",
+    "nock": "9.3.3",
+    "should": "13.2.1"
   }
 }
