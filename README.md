@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/codealchemy/lifx-zap.svg?branch=master)](https://travis-ci.org/codealchemy/lifx-zap)
+![Node.js CI](https://github.com/codealchemy/lifx-zap/workflows/Node.js%20CI/badge.svg)
 
 A simple [Zapier](https://zapier.com) integration for [Lifx lights](https://lifx.com/).
 
